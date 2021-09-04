@@ -1,0 +1,15 @@
+#abre el archivo en modo lectura
+ruta='/home/curso/Documentos/python/listado_arch.txt'
+fich=open(ruta,'r')
+
+#lee los 50 1ºs bytes
+chr=fich.read(50)
+
+#muestra la 1ª lectura
+print(chr)
+
+#muestra la 2ª lectura
+print(chr)
+
+#cerramos el fichero
+fich.close
